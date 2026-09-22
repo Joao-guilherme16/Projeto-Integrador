@@ -1,175 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vozes Plurais</title>
-    <link rel="icon" href="img/icons8-diversidade-32.png" type="image/x-icon">
-</head>
-<body>
-
+    <link rel="icon" href="img/icons8-diversidade-32.png" type="image/x-icon" />
+  </head>
+  <body>
     <!-- ===== CABEÇALHO ===== -->
     <header>
-        <div class="título">
-            <h1>Vozes Plurais</h1>
-            <p>Ciência, tecnologia, diversidade e sociedade em um só lugar.</p>
-        </div>
+      <div class="título">
+        <h1>Vozes Plurais</h1>
+        <p>Ciência, tecnologia, diversidade e sociedade em um só lugar.</p>
+      </div>
 
-        <input type="text" name="barraPesquisa" id="barraPesquisa" placeholder="Buscar notícias...">
+      <input
+        type="text"
+        name="barraPesquisa"
+        id="barraPesquisa"
+        placeholder="Buscar notícias..."
+      />
 
-        <!-- ===== Botão idioma ===== -->
-        <div class="seletorIdioma">
-            <a href="indexEn.html" class="botaoSeletorIdioma">
+      <!-- ===== Botão idioma ===== -->
+      <div class="seletorIdioma">
+        <a href="indexEn.html" class="botaoSeletorIdioma">
+          <!-- Imagem da bandeira -->
+          <img src="#" alt="English" />
+          <span>EN-US</span>
+        </a>
+      </div>
 
-                <!-- Imagem da bandeira -->
-                <img src="#" alt="English">
-                <span>EN-US</span>
-            </a>
-        </div>
-
-        <!-- ===== Barra de navegação de temas do topo =====-->
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#ciencia">Ciência</a>
-            <a href="#tecnologia">Tecnologia</a>
-            <a href="#mulheresNaTecnologia">Mulheres na tecnologia</a>
-            <a href="#cultura">Cultura</a>
-            <a href="#diversidade">Diversidade</a>
-            <a href="#educacao">Educação</a>
-        </nav>
+      <!-- ===== Barra de navegação de temas do topo =====-->
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#ciencia">Ciência</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#mulheresNaTecnologia">Mulheres na tecnologia</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#diversidade">Diversidade</a>
+        <a href="#educacao">Educação</a>
+      </nav>
     </header>
 
     <!--  ===== CONTEÚDO ===== -->
     <main>
+      <!-- ===== Seção Início ===== -->
+      <section id="inicio">
+        <div class="container-inicio-imagem1">
+          <img src="img/inicio/satelite.webp" alt="Visão da terra do espaço" />
 
-        <!-- ===== Seção Início ===== -->
-        <section id="inicio">
+          <div class="texto-sobreposto">
+            <h2>
+              Novo telescópio brasileiro pode revolucionar o estudo do universo
+            </h2>
+            <p>
+              O projeto, desenvolvido por pesquisadores nacionais, promete
+              colocar o Brasil entre os protagonistas da astronomia mundial.
+            </p>
+          </div>
+        </div>
 
-            <div class="container-inicio-imagem1">
-                <img src="img/inicio/satelite.webp" alt="Visão da terra do espaço">
+        <div class="container-inicio-imagem2">
+          <img
+            src="img/inicio/notebook.jpg"
+            alt="Notebook com pessoa programando"
+          />
+          <div class="texto-sobreposto">
+            <h2>
+              Jovens da periferia criam soluções digitais para problemas reais
+            </h2>
+          </div>
+        </div>
 
-                <div class="texto-sobreposto">
-                    <h2>Novo telescópio brasileiro pode revolucionar o estudo do universo</h2>
-                    <p>O projeto, desenvolvido por pesquisadores nacionais, promete colocar o Brasil entre os protagonistas da astronomia mundial.</p>
-                </div>
+        <div class="container-inicio-imagem3">
+          <img
+            src="img/inicio/mulher1.jpg"
+            alt="Mulher utilizando computador"
+          />
+          <div class="texto-sobreposto">
+            <h2>
+              Elas também programam: conheça histórias de mulheres na área de TI
+            </h2>
+          </div>
+        </div>
+      </section>
 
-            </div>
+      <!-- ===== Barra Lateral de buscar categorias ===== -->
+      <aside>
+        <input
+          type="text"
+          name="barraPesquisa"
+          id="barraPesquisa-aside"
+          placeholder="Buscar notícias..."
+        />
 
-            <div class="container-inicio-imagem2">
-                <img src="img/inicio/notebook.jpg" alt="Notebook com pessoa programando">
-                <div class="texto-sobreposto">
-                    <h2>Jovens da periferia criam soluções digitais para problemas reais</h2>
-                </div>
-            </div>
+        <h2>Categorias</h2>
+        <nav>
+          <a href="#ciencia">Ciência</a>
+          <a href="#tecnologia">Tecnologia</a>
+          <a href="#mulheresNaTecnologia">Mulheres na tecnologia</a>
+          <a href="#cultura">Cultura</a>
+          <a href="#diversidade">Diversidade</a>
+          <a href="#educacao">Educação</a>
+        </nav>
+      </aside>
 
-            <div class="container-inicio-imagem3">
-                <img src="img/inicio/mulher1.jpg" alt="Mulher utilizando computador">
-                <div class="texto-sobreposto">
-                    <h2>Elas também programam: conheça histórias de mulheres na área de TI</h2>
-                </div>
-            </div>
-        </section>
+      <!-- ===== Seção CIÊNCIA ===== -->
+      <section>
+        <div class="container-ciencia-imagem1">
+          <figure>
+            <img src="img/ciencia/cratera.jpeg" alt="cratera na lua" />
+            <figcaption>
+              Nova cratera na Lua: A Nasa identificou uma cratera inédita
+              formada por um raro impacto de asteroide.
+            </figcaption>
+          </figure>
+        </div>
 
-        <!-- ===== Barra Lateral de buscar categorias ===== -->
-        <aside>
-            <input type="text" name="barraPesquisa" id="barraPesquisa-aside" placeholder="Buscar notícias...">
+        <div class="container-ciencia-imagem2">
+          <figure>
+            <img src="img/ciencia/elias.webp" alt="Planeta novo no espaço" />
+            <figcaption>
+              Descoberta do planeta bebê: Cientistas encontraram o planeta
+              recém-nascido mais jovem já registrado.
+            </figcaption>
+          </figure>
+        </div>
 
-            <h2>Categorias</h2>
-            <nav>
-            <a href="#ciencia">Ciência</a>
-            <a href="#tecnologia">Tecnologia</a>
-            <a href="#mulheresNaTecnologia">Mulheres na tecnologia</a>
-            <a href="#cultura">Cultura</a>
-            <a href="#diversidade">Diversidade</a>
-            <a href="#educacao">Educação</a>
-            </nav>
-        </aside>
+        <div class="container-ciencia-imagem3">
+          <figure>
+            <img src="img/ciencia/cerebro.webp" alt="zoom em cerebro" />
+            <figcaption>
+              Origem do cérebro: Um estudo sugeriu que o cérebro humano é
+              composto pela combinação de dois órgãos embrionários distintos.
+            </figcaption>
+          </figure>
+        </div>
 
-        <!-- ===== Seção CIÊNCIA ===== -->
-        <section>
-            <div class="container-ciencia-imagem1">
-                <figure>
-                    <img src="img/ciencia/cratera.jpeg" alt="cratera na lua">
-                    <figcaption>Nova cratera na Lua: A Nasa identificou uma cratera inédita formada por um raro impacto de asteroide.</figcaption>
-                </figure>
-            </div>
+        <div class="container-ciencia-imagem4">
+          <figure>
+            <img src="img/ciencia/felino.jpg" alt="especie de felino" />
+            <figcaption>
+              Nova espécie de felino: Pesquisadores identificaram uma nova
+              espécie de felino após um século sem descobertas no grupo.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
 
-            <div class="container-ciencia-imagem2">
-                <figure>
-                    <img src="img/ciencia/elias.webp" alt="Planeta novo no espaço">
-                    <figcaption>Descoberta do planeta bebê: Cientistas encontraram o planeta recém-nascido mais jovem já registrado.</figcaption>
-                </figure>
-            </div>
+      <!-- ===== Seção TECNOLOGIA ===== -->
+      <section id="tecnologia">
+        <div class="container-ciencia-imagem1">
+          <figure>
+            <img src="img/tecnologia/amd.webp" alt="CEO da empresa amd" />
+            <figcaption>
+              • AMD vale US$ 1 trilhão: A empresa atingiu a marca histórica
+              devido à alta demanda por chips de Inteligência Artificial.
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ================================================================= -->
+        <div class="container-ciencia-imagem2">
+          <figure>
+            <img
+              src="img/tecnologia/setor-ia.webp"
+              alt="Rostos conhecidos no mundo das IAs"
+            />
+            <figcaption>
+              • Novo sistema da Samsung: A linha Galaxy S26 começou a receber a
+              One UI 9 com ferramentas de resumo e tradução por IA.
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ================================================================= -->
+        <div class="container-ciencia-imagem3">
+          <figure>
+            <img
+              src="img/tecnologia/hyundai.webp"
+              alt="carros da marca hyundai"
+            />
+            <figcaption>
+              • Hyundai cria IA de trânsito: O sistema Atria treina carros
+              autônomos simulando sustos e imprevistos reais das ruas em 3D.
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ================================================================= -->
+        <div class="container-ciencia-imagem4">
+          <figure>
+            <img
+              src="img/tecnologia/bancos-ia.webp"
+              alt="Imagem de um celular e um cartão, represetando compras online"
+            />
+            <figcaption>
+              • Alerta para golpes com robôs: Bancos alertam que assistentes de
+              compras por IA facilitam fraudes e têm falhas na proteção de
+              dados.
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ================================================================= -->
+        <div class="container-ciencia-imagem5">
+          <figure>
+            <img
+              src="img/tecnologia/satelite-explosao.jpg"
+              alt="imagem de um satelite destruído"
+            />
+            <figcaption>
+              • Satélite dos EUA explode: Um satélite espião explodiu em órbita
+              e acendeu o alerta sobre o lixo espacial.
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ================================================================= -->
+        <div class="container-ciencia-imagem6">
+          <figure>
+            <img
+              src="img/tecnologia/one-ui9.jpeg"
+              alt="imagem de um celular com a nova tecnologia One UI 9"
+            />
+            <figcaption>
+              • Novo sistema da Samsung: A linha Galaxy S26 começou a receber a
+              One UI 9 com ferramentas de resumo e tradução por IA.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
 
-            <div class="container-ciencia-imagem3">
-                <figure>
-                    <img src="img/ciencia/cerebro.webp" alt="zoom em cerebro">
-                    <figcaption>Origem do cérebro: Um estudo sugeriu que o cérebro humano é composto pela combinação de dois órgãos embrionários distintos.</figcaption>
-                </figure>
-            </div>
+      <!-- ===== Barra Lateral de mais lidas ===== -->
+      <aside></aside>
 
-            <div class="container-ciencia-imagem4">
-                <figure>
-                    <img src="img/ciencia/felino.jpg" alt="especie de felino">
-                    <figcaption>Nova espécie de felino: Pesquisadores identificaram uma nova espécie de felino após um século sem descobertas no grupo.</figcaption>
-                </figure>
-            </div>
-        </section>
+      <!-- ===== Seção MULHERES NA TECNOLOGIA ===== -->
+      <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
 
-        <!-- ===== Seção TECNOLOGIA ===== -->
-        <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
+      <!-- ===== Seção CULTURA ===== -->
+      <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
 
-        <!-- ===== Barra Lateral de mais lidas ===== -->
-        <aside>
+      <!-- ===== Seção DIVERSIDADE ===== -->
+      <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
 
-        </aside>
-
-        <!-- ===== Seção MULHERES NA TECNOLOGIA ===== -->
-        <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-
-        <!-- ===== Seção CULTURA ===== -->
-         <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-         </section>
-
-         <!-- ===== Seção DIVERSIDADE ===== -->
-          <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </section>
-
-          <!-- ===== Seção EDUCAÇÃO ===== -->
-           <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-           </section>
+      <!-- ===== Seção EDUCAÇÃO ===== -->
+      <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
     </main>
 
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
