@@ -4,3 +4,58 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #061421;
+    color: white;
+    padding: 10px 20px 0;
+
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.título {
+    margin-left: 8px;
+}
+
+.título h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.título p {
+    margin: 2px 0 0;
+    font-size: 8px;
+}
+
+#barraPesquisa {
+    width: 210px;
+    justify-self: end;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+
+header nav {
+    grid-column: 1 / -1;
+}
+
+.botaoSeletorIdioma {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
