@@ -462,3 +462,42 @@ grid-template-columns: repeat(3, 1fr);    gap: 20px;
     font-size: 14px;
     line-height: 1.4;
 }
+
+.footer-escolar {
+    background-color: #061421;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 40px;
+}
+
+.footer-secao,
+.footer-section {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.titulo-grupo {
+    margin-bottom: 5px;
+}
+
+.membros {
+    color: #d5dce2;
+}
+
+.footer-section {
+    text-align: right;
+}
+
+.footer-ano {
+    border-top: 1px solid #1d2a35;
+    padding: 12px 40px;
+    text-align: center;
+    font-size: 11px;
+    color: #aeb8c0;
+}
