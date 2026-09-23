@@ -245,3 +245,26 @@ header nav a:hover {
     overflow: hidden;
     border-radius: 6px;
 }
+
+.inicio-com-sidebar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+}
+
+#barraLateral1 {
+    padding: 30px 20px 20px 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+#barraLateral1 nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#barraLateral1 nav a {
+    width: 180px;
+}
