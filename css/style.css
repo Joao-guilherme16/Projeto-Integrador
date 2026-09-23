@@ -16,6 +16,9 @@ header {
     display: grid;
     grid-template-columns: auto auto 1fr auto;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo img {
@@ -500,4 +503,22 @@ grid-template-columns: repeat(3, 1fr);    gap: 20px;
     text-align: center;
     font-size: 11px;
     color: #aeb8c0;
+}
+
+section > h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section > h2::before {
+    content: "";
+    width: 8px;
+    height: 28px;
+    background-color: #8b5cf6;
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
