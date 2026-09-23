@@ -157,3 +157,54 @@ header nav a:hover {
     gap: 20px;
     padding: 30px 40px;
 }
+
+#barraLateral1 {
+    padding: 20px 40px;
+}
+
+#barraLateral1 h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#barraLateral1 nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#barraLateral1 nav a {
+    color: #061421;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#barraLateral1 nav a {
+    color: #061421;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    border: 1px solid #d5dce2;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+#barraLateral1 nav a:hover {
+    background-color: #061421;
+    color: white;
+}
+
+#barraPesquisa-aside {
+    width: 250px;
+    padding: 8px 10px;
+    border: 1px solid #d5dce2;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+#barraLateral1 {
+    padding: 20px 40px;
+    border-bottom: 1px solid #d5dce2;
+    margin-bottom: 20px;
+}
